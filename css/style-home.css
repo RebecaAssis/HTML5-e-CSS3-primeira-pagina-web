@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif
+} 
+
+#banner {
+    width: 100%;
+}
+
+.main-title {
+    padding-left: 20px;
+}
+
+.main-content {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.center-title {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#mission {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+} 
+
+.benefits {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+.itens {
+    font-style: italic;
+}
+
+.benefits-image {
+    width: 50%;
+}
