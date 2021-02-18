@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
     <title>Contato - Barbearia Alura</title>
 
@@ -30,13 +30,36 @@
     <main>
         <form>
             <label for="complete-name">Nome e sobrenome</label>
-            <input type="text" id="complete-name">
+            <input type="text" id="complete-name" class="standart-input">
 
             <label for="email">E-mail</label>
-            <input type="text" id="email">
+            <input type="email" id="email" class="standart-input">
 
             <label for="phone-number">Telefone</label>
-            <input type="text" id="phone-number">
+            <input type="tel" id="phone-number" class="standart-input">
+
+            <label for="message">Mensagem</label>
+            <textarea name="" id="message" cols="70" rows="10" class="standart-input"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="cotact" value="email" id="radio-email">E-mail</label>
+                
+                <label for="radio-phone-number"><input type="radio" name="cotact" value="phone-number" id="radio-phone-number">Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="cotact" value="whatsapp" id="radio-whatsapp">Whatsapp</label>  
+            </div>
+
+            <div>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>  
+
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
 
             <input type="submit" value="Enviar formulário">
         </form>
